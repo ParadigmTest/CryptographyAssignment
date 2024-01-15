@@ -56,7 +56,7 @@ def authenticate():
     username = data.get('username')
     password = data.get('password')
 
-    # Perform user authentication (replace with your authentication logic)
+    # Perform user authentication
     # For simplicity, we just check if the user exists in the database
     with app.app_context():
         cursor = get_db().cursor()
