@@ -22,9 +22,7 @@ Once we have 624 consecutive session tokens (succesfully printed in terminal for
 
 
 
-Given that the MT2 algorithm has a period of 2^19983, you should be able to predict all future session tokens based on these internal state integers. You can write a function to
-generate an unlimited number of new session tokens using the obtained MT integers:
-
+Given that the MT2 algorithm has a period of 2^19983, we should be able to predict all future session tokens based on these internal state integers. Thus, we can write a function to generate an unlimited number of new session tokens using the obtained MT integers:
 
 Then, we can use the generate_tokens() function to generate a new session token ('new_token') that we will use to access/attack/hack the victim's account:
 
