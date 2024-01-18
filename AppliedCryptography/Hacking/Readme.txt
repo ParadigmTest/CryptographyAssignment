@@ -9,7 +9,7 @@ Then from Postman run a POST requests: http://127.0.0.1:5000/add_user with the f
 
 This shall add the new user with username and password to our database
 
-We can run the following also in Postman with the same JSOn body to authenticate user, and make sue that the database recognises and validates the user
+We can run the following also in Postman with the same JSON body to authenticate user, and make sure that the database recognises and validates the user
 http://127.0.0.1:5000/authenticate
 
 In terminal of our running server (where we executed mersenneT.py) we shall see this:
@@ -29,7 +29,7 @@ generate an unlimited number of new session tokens using the obtained MT integer
 Then, we can use the generate_tokens() function to generate a new session token ('new_token') that we will use to access/attack/hack the victim's account:
 
 We proceed to update the user's session token in the server's internal user table with the generated new_token, at this point we can use the session token to either modify the username and password, or add_user, we hacked into an actual account by changing name and password from db to a new malicious one 
-fauser1
+fakeuser1
 fakepassword1
 
 
